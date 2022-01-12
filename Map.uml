@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Map</OriginalElement>
+  <nodes>
+    <node x="23.5" y="156.0">java.util.Properties</node>
+    <node x="379.0" y="78.0">java.util.TreeMap</node>
+    <node x="209.5" y="0.0">java.util.Map</node>
+    <node x="191.5" y="78.0">java.util.HashMap</node>
+    <node x="0.0" y="78.0">java.util.Hashtable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.TreeMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="462.0" y="53.0" />
+      <point x="276.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Properties" target="java.util.Hashtable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="86.5" y="53.0" />
+      <point x="276.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="262.5" y="170.0" />
+  <SelectedNodes>
+    <node>java.util.Map</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
